@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css?family=Aldrich");
+body {
+  background-color: #393e46;
+}
+
+.layout {
+  padding-left: 25%;
+  padding-right: 25%;
+  padding-top: 5px;
+}
+.content {
+  height: 86vh;
+  background-color: #222831;
+  overflow: auto;
+  border: 1px solid #000000;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  border-radius: 20px;
+}
+.content::-webkit-scrollbar {
+  display: none;
+}
+.content_lista {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.ant-card {
+  background-color: #393e46;
+  color: #ffd369;
+  font-family: Aldrich, sans-serif;
+}
+
+.ant-card-head {
+  background-color: #393e46;
+  color: #ffd369 !important;
+  border-bottom: 1px solid #626262 !important;
+}
+.ant-checkbox .ant-checkbox-inner {
+  background-color: #222831;
+  border-color: #626262;
+}
+
+.ant-checkbox-checked .ant-checkbox-inner {
+  background-color: #ffd369;
+  border-color: #222831;
+}
+
+.add {
+  width: 10%;
+  background-color: #ffd369;
+  color: black;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  height: 30px;
+  margin: 30px;
+  font-family: Aldrich, sans-serif;
+}
+
+.ikona {
+  color: rgba(255, 0, 0, 0.585);
+  font-size: 20px;
+}
+
+.x {
+  color: rgba(255, 0, 0, 0.585);
+  font-size: 20px;
+  margin-bottom: 0;
+  margin-top: 7px;
+  text-decoration: none;
+  font-weight: bold;
+  background-color: transparent;
+  border: none;
+}
+
+.naslov {
+  margin-top: 10px;
+
+  margin-left: 30px;
+  position: absolute;
+  font-family: Aldrich, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  max-width: 80%;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 50px;
+  color: #ffd369;
+
+  text-shadow: rgb(0, 0, 0) 4px 2px 3px;
+}
+
+.naslov1 {
+  margin-top: -143px;
+
+  margin-left: 30px;
+  position: absolute;
+  font-family: Aldrich, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  max-width: 80%;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 50px;
+  color: #ffd369;
+
+  text-shadow: rgb(0, 0, 0) 4px 2px 3px;
+}
